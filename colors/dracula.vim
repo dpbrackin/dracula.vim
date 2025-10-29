@@ -996,7 +996,7 @@ if has('nvim')
   " }}}
 
   " nvim-neo-tree/neo-tree.nvim {{{
-  hi! link NeoTreeFloatBorder DraculaPink
+  hi! link NeoTreeFloatBorder DraculaPurple
   hi! link NeoTreeFloatTitle DraculaFg
   hi! link NeoTreeTitleBar DraculaFg
   " }}}
@@ -1005,7 +1005,7 @@ endif
 " }}}
 
 " romgrk/barbar.nvim {{{
-hi! link BufferCurrent        DraculaPink
+hi! link BufferCurrent        DraculaFg
 hi! link BufferCurrentMod     DraculaOrange
 hi! link BufferCurrentSign    DraculaPurple
 hi! link BufferCurrentTarget  DraculaRed
