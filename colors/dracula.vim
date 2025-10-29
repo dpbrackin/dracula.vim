@@ -995,7 +995,30 @@ if has('nvim')
   hi! link GitSignsDeleteNr DraculaRed
   " }}}
 
+  " nvim-neo-tree/neo-tree.nvim {{{
+  hi! link NeoTreeFloatBorder DraculaPink
+  hi! link NeoTreeFloatTitle DraculaFg
+  hi! link NeoTreeTitleBar DraculaFg
+  " }}}
+
 endif
+" }}}
+
+" romgrk/barbar.nvim {{{
+hi! link BufferCurrent        DraculaPink
+hi! link BufferCurrentMod     DraculaOrange
+hi! link BufferCurrentSign    DraculaPurple
+hi! link BufferCurrentTarget  DraculaRed
+hi! link BufferVisible        DraculaComment
+hi! link BufferVisibleMod     DraculaYellow
+hi! link BufferVisibleSign    DraculaComment
+hi! link BufferVisibleTarget  DraculaYellow
+hi! link BufferInactive       DraculaComment
+hi! link BufferInactiveMod    DraculaComment
+hi! link BufferInactiveSign   DraculaBgLight
+hi! link BufferInactiveTarget DraculaComment
+hi! link BufferTabpages       DraculaBgDark
+hi! link BufferTabpageFill    DraculaBgDark
 " }}}
 
 " }}}
